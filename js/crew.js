@@ -82,7 +82,6 @@ for(i = 0 ; i < persons.length ; i++) {
     knapp.innerText = "Ta reda på mer"
     knapp.onclick = function(){profile(person)}     // Sends info of "person" to the function "profile"
     box.appendChild(knapp)
-
 }
 
 // Send the info to local storage an redirect to "profil.html"
