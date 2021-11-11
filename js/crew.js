@@ -58,7 +58,7 @@ for(i = 0 ; i < persons.length ; i++) {
 
     let image = document.createElement("img")
     image.classList.add("image")
-    image.src = "./assets/" + person.image
+    image.src = "/assets/" + person.image
     imageBox.appendChild(image)
 
     let fName = document.createElement("h2")
