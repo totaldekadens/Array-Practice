@@ -30,7 +30,6 @@ let persons = [
         Längd: 80,
         Hobby: "Gosa",
         image: "sigge.jpg",
-        images: ["sigge2.jpg", "sigge3.jpg", "sigge4.jpg", "sigge5.jpg"],
         Story: "Sigge är absolut den gosigaste av våra katter. Här skall jag försöka få i mer text bblablablablabnlajklnj."
     }
 ]
@@ -58,7 +57,7 @@ for(i = 0 ; i < persons.length ; i++) {
 
     let image = document.createElement("img")
     image.classList.add("image")
-    image.src = "/assets/" + person.image
+    image.src = "./assets/" + person.image
     imageBox.appendChild(image)
 
     let fName = document.createElement("h2")
