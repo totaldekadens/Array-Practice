@@ -18,7 +18,7 @@ boxProf.appendChild(imageBox)
 // Create element img and connect to src
 let image = document.createElement("img")
 image.classList.add("image")
-image.src = "./assets/" + person.image
+image.src = "/assets/" + person.image
 imageBox.appendChild(image)
 
 // Create element "h2" and connect it to src
