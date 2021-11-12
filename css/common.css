@@ -15,42 +15,67 @@ body{
 header {
     display: flex;
     position: fixed;
-    justify-content: space-around;
+    top: 0px;
     right: 0px;
     left: 0px;
-    top: 0px;
-    box-shadow: 0px 0px 10px black;
-    background-color: rgba(255, 255, 255, 0.719);
-    z-index: 2;
+    justify-content: space-between;
+    z-index: 1;
 }
 
-.container {
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 30px;
-    flex-grow: 1;
-    flex-shrink: 1;
+.containIcon {
+    margin-left:25px;
+    margin-top:20px;
+    font-size: 35px;
 }
 
-a {
-    text-decoration: none;
-    color: rgba(0, 0, 0, 0.747);
+.home {
+    margin-right: 25px;
+    margin-top: 20px;
+    font-size: 35px;
 }
 
-@media screen and (max-width: 500px) {
-    
-.container {
-    height: 70px;
-    font-size: 20px;
+.fas {
+    color: rgba(135, 206, 250, 0.281);
+}
+
+.fas:hover {
+    color: rgba(135, 206, 250, 0.753);
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    opacity: calc(12%);
+  }
+
+@media screen and (max-width: 520px) {
+
+.containIcon {
+    margin-left:20px;
+    margin-top:15px;
+    font-size: 35px;
+}
+
+.home {
+    margin-right: 20px;
+    margin-top: 15px;
+    font-size: 35px;
 }
 }
 
 @media screen and (max-width: 330px) {
-    
-.container {
-    height: 50px;
-    font-size: 16px;
+
+.containIcon {
+    margin-left:15px;
+    margin-top:10px;
+}
+
+.home {
+    margin-right: 15px;
+    margin-top: 10px;
 }
 }
+

@@ -65,11 +65,11 @@ for(i = 0 ; i < persons.length ; i++) {
     box.appendChild(fName)
 
     let age = document.createElement("h3")
-    age.innerText = "Ålder: " + person.Ålder
+    age.innerText = "Ålder: " + person.Ålder + " år"
     box.appendChild(age)
 
     let length = document.createElement("h3")
-    length.innerText = "Längd: " + person.Längd
+    length.innerText = "Längd: " + person.Längd + " cm"
     box.appendChild(length)
 
     let hobby = document.createElement("h3")
@@ -86,6 +86,6 @@ for(i = 0 ; i < persons.length ; i++) {
 // Send the info to local storage an redirect to "profil.html"
 function profile(person) {
     localStorage.setItem("person", JSON.stringify(person))
-    location.href = "profil.html";
+    location.href = "profile.html";
 }
 
