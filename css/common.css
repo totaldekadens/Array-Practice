@@ -48,7 +48,7 @@ header {
     bottom: 0;
     min-width: 100%;
     min-height: 100%;
-    opacity: calc(12%);
+    opacity: calc(13%);
   }
 
 @media screen and (max-width: 520px) {
@@ -64,6 +64,10 @@ header {
     margin-top: 15px;
     font-size: 35px;
 }
+
+#myVideo {
+    opacity: calc(28%);
+  }
 }
 
 @media screen and (max-width: 330px) {
